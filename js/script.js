@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
       M02_Advanced_CSS: [
         "01-Wireframing",
         "02-Flexbox-Layout.html",
-        "03-CSS-Selectors.html",
+        "03-Responsive-Design.html",
         "04-Box-Model.html",
         "05-CSS-Positioning.html",
         "06-Git-Guide.html",
