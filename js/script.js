@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "10-Quiz.html",
       ],
       M02_Advanced_CSS: [
-        "01-HTML.html",
-        "02-Attributes.html",
+        "01-Wireframing",
+        "02-Flexbox-Layout.html",
         "03-CSS-Selectors.html",
         "04-Box-Model.html",
         "05-CSS-Positioning.html",
