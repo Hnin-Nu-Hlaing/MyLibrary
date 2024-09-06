@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "01-Wireframing",
         "02-Flexbox-Layout.html",
         "03-Responsive-Design.html",
-        "04-Box-Model.html",
+        "Module-02-04-Pseudo-Classes-.html",
         "05-CSS-Positioning.html",
         "06-Git-Guide.html",
         "07-Challenge.html",
