@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       M03_JavaScript: [
         "01-Conditional-Statements",
-        "02-Attributes.html",
-        "03-CSS-Selectors.html",
+        "02-Iteration.html",
+        "03-Functions.html",
         "04-Box-Model.html",
         "05-CSS-Positioning.html",
         "06-Git-Guide.html",
