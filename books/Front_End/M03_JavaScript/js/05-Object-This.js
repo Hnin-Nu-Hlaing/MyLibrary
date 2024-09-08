@@ -6,7 +6,7 @@ function helloThis() {
   console.log('Inside this function, this is ' + this);
 }
 
-// 'this' refers to  the name of object 'age'
+// 'this' refers to  the name of object 'child'.Will console log 20
 var child = {
   age: 10,
   ageTenYears: function() {
@@ -14,7 +14,7 @@ var child = {
   }
 };
 
-// 'this' refers to  the name of object 'initialInvestment'
+// 'this' refers to  the name of object 'Investment'.Will console log 5750
 var investor = {
   name: 'Cash Saver',
   investment: {
@@ -25,9 +25,9 @@ var investor = {
   }
 };
 
-// call the 'helloThis' function
+// call the 'helloThis' function to check results
 helloThis();
 
-// Call the object methods
+// Call the object methods to check results
 child.ageTenYears();
 investor.investment.investmentGrowth();
