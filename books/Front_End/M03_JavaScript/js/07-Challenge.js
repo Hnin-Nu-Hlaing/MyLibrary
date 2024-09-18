@@ -22,17 +22,19 @@ function generatePassword() {
 
   //parseInt(int ကနေ numberပြောင်းပေးတာ)
   passwordLength = parseInt(prompt("Choose password numbers within 8 to 128"));
+ 
+  //isNaN (not a number?)
+  if(isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128){
+    alert("Choose numbers 8 t0 128!");
+    return "";
+    // parseInt(prompt("Choose password numbers within 8 to 128"));
+  }
+
   includeUpperCase = confirm("Upper Case letter");
   includeLowerCase = confirm("Lower Case letter");
   includeNumber = confirm("Number");
   includeSpecialCharacter = confirm("Special Char");
  
-  //isNaN (not a number?)
-  while(isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128){
-    alert("Choose numbers 8 t0 128!");
-    //return "";
-    parseInt(prompt("Choose password numbers within 8 to 128"));
-  }
 
   // || or 
   // && and
@@ -45,19 +47,19 @@ function generatePassword() {
 
   let availableCahr = "";
   if(includeUpperCase){
-    availableCahr += 'ABCDEFG';
+    availableCahr += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   }
 
   if(includeLowerCase){
-    availableCahr += 'abcdefg';
+    availableCahr += 'abcdefghijklmnopqrstuvwxyz';
   }
 
   if(includeNumber){
-    availableCahr += '12345';
+    availableCahr += '1234567890';
   }
 
   if(includeSpecialCharacter){
-    availableCahr += '@#$%!^&*';
+    availableCahr += '!@#$%^&*()_+-=[]{}|;:,.<>?';
   }
 
   let password = "";
