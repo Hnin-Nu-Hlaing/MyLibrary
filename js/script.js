@@ -61,8 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "11-Quiz.html",
       ],
       M04_Web_APIs: [
-        "01-HTML.html",
-        "02-Attributes.html",
+        "01-Create-Append.html",
+        "02-Event-Listeners.html",
         "03-CSS-Selectors.html",
         "04-Box-Model.html",
         "05-CSS-Positioning.html",
