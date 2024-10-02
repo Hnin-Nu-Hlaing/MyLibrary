@@ -64,9 +64,9 @@ function displayQuestion() {
 function createOption(option) {
   return `
         <div class="option">
-            <input type="radio" name="answer" value="${option}"> ${option}
+            <input type="radio" name="answer" value="${option}"> ${option} 
         </div>`;
-}
+}// to display 
 
 // Function to start the countdown timer
 function startTimer() {
@@ -156,6 +156,7 @@ function testAgain() {
   document.getElementById("result-container").style.display = "none";
   document.getElementById("quiz-container").style.display = "block";
 
+  feedback.textContent = "";
   displayQuestion();
   startTimer();
 }
